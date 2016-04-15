@@ -1,0 +1,352 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tercera Aplicación</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temasapp3.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<style type="text/css">
+body,td,th {
+	color: #000;
+}
+</style>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/actividad1.jpg','imagenes/erupcion2.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>Volcán Popocatepetl</h1>
+   </div>
+   
+   <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Antigüedad</h1>
+         <div>
+         
+         <h2>¿Como surgió?</h2>
+              <p>El Popocatépetl es un volcán geológicamente joven. Se cree que tiene unos 730,000 años de antigüedad y que es remanente de volcanes antiguos que colapsaron. Su historia comenzó con la formación del volcán Nexpayantla a través de la expulsión de flujos de lava andesítica y dacítica. Años después, este volcán colapsó y en consecuencia se formó una caldera, es decir, una depresión amplia y profunda debajo de la cual se halla una cámara de magma.
+El cono de un nuevo volcán, Ventorrillo, emergió entonces, pero este experimentó un colapso hace aproximadamente 23,000 años. Posteriormente empezó a emerger el volcán El Fraile, pero al cabo de un tiempo terminó por colapsar también debido a una fuerte erupción, tras lo cual el lado sur del cono quedó destruido.
+El moderno Popocatépetl tuvo su origen durante el Pleistoceno tardío-Holoceno, después del derrumbe de El Fraile. El cono perteneciente a Don Goyo se formó paulatinamente hasta adquirir un tamaño significativo, pero produjo una fuerte erupción que hizo colapsar un lateral del cono y generar una avalancha de depósitos que cubrió la superficie. Al menos 4 avalanchas subsecuentes contribuyeron a formar el moderno cono. </p>
+<p> Muchos eventos fueron documentados por los aztecas en sus códices, como el que sucedió en el año 1509 d. C, el cual fue plasmado en los códices Telleriano-Remensis y Vaticano. En 1519 dio inicio una actividad fumarólica que culminó en 1530. Entre 1539 y 1549 se produjeron erupciones explosivas moderadas que liberaron piedra pómez del interior de la tierra.
+Durante el siglo XX ocurrieron algunas erupciones de moderadas a intensas, de estas últimas, la más recordada es la de 1947. En 1994, los gases y cenizas exhalados obligaron a los pobladores cercanos a evacuar sus hogares para ponerse a salvo. Esto es un punto esencial para las más de 25 millones de personas que viven a menos de 100 kilómetros del cráter, y principalmente, para las cerca de 325 establecidas a 5 kilómetros.
+En el 2000, el volcán hizo su erupción más grande en 1,200 años. En los días 18 y 19 de diciembre de ese año, arrojó grandes cantidades de material incandescente, en 3 episodios, y el 24 de ese mes arrojó fragmentos a unos 2.5 kilómetros y produjo una columna de ceniza de unos 5 kilómetros de altura.
+</p>
+ <p> El Popocatépetl surgió a finales del Cenozoico, en el plioceno por lo que aproximadamente tiene 5 millones de años de edad. En conjunto con el Iztaccíhuatl forman una "asociación volcánica o sistema binario volcánico". </p>
+ <!-- Start WOWSlider.com -->
+<iframe src="visor/indexwow.html" style="width:1024px;height:768px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+
+         <br>
+         </div>
+   
+    </div>
+    </div>
+     
+     <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Tamaño y Localización</h1>
+         <div>
+         <h2>¿De que tamaño es el Volcan?</h2>
+         De apariencia casi simétrica, cubre una superficie de 283,192.53 hectáreas y tiene una altura de 5,426 metros sobre el nivel del mar. Posee un cráter elíptico de paredes empinadas con una profundidad de 150 metros desde el labio inferior, un diámetro mayor de 900 metros y un ancho total de 400 x 600 metros.
+El paisaje en la zona que rodea al Popocatépetl contiene varios tipos de ecosistemas con rica variedad de flora y fauna. Hay bosques mixtos de pino, oyamel y encino, donde coexisten hasta 1,000 especies de plantas. Sobre el cono, principalmente cerca de la boca, se encuentran glaciares que durante los últimos años han disminuido
+</p>
+<p>Es un volcán de forma cónica simétrica.
+Su altura sobre el nivel del mar es de 5,452 m.(17,887 pies).
+El cráter en la parte más ancha mide 612 m. y en la más angosta 400 m. Tiene una profundidad máxima de 505 m. y es el vértice donde limitan tres estados: México, Puebla y Morelos.
+Las dos principales cimas del Popo son el Pico Mayor y el Espinazo del Diablo, ambos alrededor del cráter.
+Es el segundo volcán más alto de nuestro país; el primero lo ocupa el Pico de Orizaba o Citlaltépetl con 5,747 m. y el tercero el Iztaccíhuatl o Ixtaccíhualtl ( Con quien esta unido por la parte norte mediante un paso montañoso conocido como Paso de Cortés) con 5,286 m. de altura. </p>    
+
+ <div>
+       <img src="imagenes/tamanodellvolcan.jpg" width="40%"> </div>
+       <h2>Un poco más..</h2>
+   <p>El Popocatépetl forma el término austral de la Sierra Nevada. A partir de él, se desprenden hacia el poniente las serranías de Ajusco. Gran número de las erupciones del Popocatépetl han tenido lugar por su conducto, a lo que se debe su gran profundidad, las dimensiones del volcán y su altura. Sus solfataras, en vías de extinción, demuestran su actividad actual.
+    El Popocatépetl es la segunda altura de la República Mexicana (5 452 m), después del Pico de Orizaba. Está separado del Iztaccíhuatl por una depresión, donde el Puerto de Pelagallinas es el paso mas bajo. Se encentra el volcán a 88 km al oriente de la ciudad de Mexico y sirve de límite a los estados de México, Puebla y Morelos.
+
+    El rancho de Tlamacas, en la falda del Popocatépetl, a una altura de 3 897 m, queda casi en el límite de la vegetación arborescente. En su ascención, los abetos le siguen la arena negra azulosa y matorrales.   En la Cruz comienza la cúpula de nieve, situada a 4 300 m sobre el nivel del mar. En la Cresta hay dos cimas: 
+el Espinazo del Diablo y el Pico Mayor.
+
+    El cráter del Popocatépetl es elíptico, de 850 m de eje mayor y de 750 m de eje menor, con una profundidad de 250 a 300 m. En el fondo de su cráter existen varias fumarolas que sirven de respiradero al volcán, capas de rocas traquíticas muy compactas, basaltos, escorias porosas cargadas de óxido de hierro, abundantes depósitos de azufre y de ácido sulfhídrico. En el interior del cráter, que es de paredes verticales. tienen lugar constantes derrumbes, y esta lleno de rampas y de lomas.
+</p>
+ <div>
+       <img src="imagenes/pocomas.jpg" width="40%"> </div>
+       <h2>¿Cual es su localización?</h2>
+ <p>El Popocatépetl esta ubicado en los estados de Morelos, Puebla (45 kilometros) y el Estado de México( a 55 kilometros). Al sur de la Sierra Volcánica Transversal que constituye la espina dorsal del Altiplano Mexicano.
+
+En el Estado de México colinda con los municipios: Tlamanalco, Amecameca, Atlauta y Ecatzingo.
+
+Con el estado de Morelos colinda específicamente con el municipio de Tetela del Volcán.
+
+Por la parte de Puebla colinda con Huejotzingo, San Salvador el Verde, Domingo Arenas, San Nicolás de los Ranchos y Tochimilco.
+ </p>
+ 
+       <h2>Dato importante</h2>
+<p> Es un volcán de forma cónica simétrica.</p>
+<p>Su altura sobre el nivel del mar es de 5,452 m.(17,887 pies).
+El cráter en la parte más ancha mide 612 m. y en la más angosta 400 m. Tiene una profundidad máxima de 505 m. y es el vértice donde limitan tres estados: México, Puebla y Morelos.
+Las dos principales cimas del Popo son el Pico Mayor y el Espinazo del Diablo, ambos alrededor del cráter.
+Es el segundo volcán más alto de nuestro país; el primero lo ocupa el Pico de Orizaba o Citlaltépetl con 5,747 m. y el tercero el Iztaccíhuatl o Ixtaccíhualtl ( Con quien esta unido por la parte norte mediante un paso montañoso conocido como Paso de Cortés) con 5,286 m. de altura. </p>   
+  
+  
+         <br>
+         </div>
+    <div>
+       <img src="imagenes/llegar.jpg" width="40%"> </div>
+      
+    </div>
+    </div>
+
+
+    
+<div>
+    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Actividad</h2>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Monitoreo</h2>
+      </a>
+    </li>
+   <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Medidas de prevención</h2>
+      <p> Caida de ceniza y una erupción </p> 
+      </a>
+    </li>
+   <li class="ui-first-child ui-last-child">
+      <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Que estados afectaría</h2>
+      </a>
+   </li>
+  </ul> 
+  <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Otros Volcanes en el mundo</h1>
+         <div>
+         <h2>Apoyeque, Nicaragua</h2>
+  <p> Nombre: Apoyeque Volcano </p>
+  <p> Estado: Inactivo </p>
+  <p> Coordenadas: 12.242°N, 86.342°O</p>
+  <p> Última erupción: hace unos 6400-6800 años</p>
+  <p> Elevación	518 m </p>
+  <p> Actividades: Excursionar, nadar.</p>
+ <p> Es el volcán más peligroso de Nicaragua </p>
+ <p> El Volcán Apoyeque, a unos 10 kilómetros de Managua, es considerado por un grupo de expertos de la Universidad de Manchester, como el segundo volcán más peligroso del mundo.
+
+Estos especialistas en vulcanología elaboraron un top 10 de los volcanes que representan más peligro para la humanidad y que tienen probabilidades reales de hacer erupción en los próximos 100 años.
+
+Apoyeque ocupa el segundo lugar en esta lista, tan sólo detrás del volcán de Iwo Jima, en Japón.
+
+Según publicó el pasado mes de noviembre el sitio web de la Universidad de Manchester, la erupción del volcán de Apoyeque afectaría a la capital del país, Managua.
+
+Además, su erupción podría ser submarina, lo que provocaría un tsunami, además del peligro de la erupción por sí misma.
+
+De acuerdo a los estudiosos de la materia, la primera gran erupción del Apoyeque fue hace 22 mil años, y desde entonces ha registrado grandes erupciones cada 2.000 años. La última fue, precisamente, hace unos 2.000 años.
+
+Otros volcanes que aparecen en la lista son el Volcán de Campos Flégreos (Italia); Volcán de Monte Aso (Japón); Cinturón Volcánico Transmexicano (México); Volcán de Gunung Agung (Indonesia); Monte Camerún (o Mongo ma Ndemi) (Camerún); Volcán Taal (Filipinas); Volcán Mayon (Filipinas); y Volcán Gunung Kelud (Indonesia).</p>
+ 
+
+ <div>
+       <img src="imagenes/apoyeque.jpg" width="60%"> </div>
+   
+       
+       
+       <h2>Volcán Tungurahua</h2>
+       <p>Tungurahua (Quichua Tungur (Garganta), Rauray (Ardor): Ardor en la garganta) es un estratovolcán activo situado en la zona andina de Ecuador. El volcán se alza en la Cordillera Oriental de Ecuador límite de las provincias de Chimborazo y Tungurahua dando nombre a esta última. La última erupción del volcán comenzó en 1999 y se mantiene en erupción hasta hoy en día, teniendo episodios violentos el 14 de julio de 2006, 16 de agosto de 2006, 28 de mayo de 2008, 26 de abril de 2010, 20 de agosto de 2012 y la más reciente el 1 de febrero de 2014. El Instituto Geofísico, EPN monitorea actividad Volcán Tungurahua y otros Volcanes en las montañas de los Andes de Ecuador y en las Islas Galápagos</p>
+       <p>El Tungurahua (5.023 metros) está localizado en la Cordillera de Ecuador (Los Andes), 140 kilómetros (87 millas) al sur de Quito, la capital del país. Notables montañas y volcanes cercanos son el Chimborazo (6.310 metros) y El Altar (5.319 msnm). La pequeña ciudad de Baños, se conocen por sus aguas termales, se encuentra en sus faldas, a aproximadamente cinco kilómetros al norte. El Tungurahua es parte del Parque nacional Sangay.</p>
+       <p>Después del incremento de la actividad volcánica en 1999, los glaciares en la cumbre del Tungurahua se derritieron. Su glaciar se podría ver en días muy fríos (bajo 10 °C) o en invierno. </p>
+       <p> El actual edificio volcánico (Tungurahua III) creció en el interior de la caldera de su predecesor (Tungurahua II) que se colapsó hace, aproximadamente, 3000 (± 90) años. El volcán original (Tungurahua I) se derrumbó a finales del Pleistoceno tardío.</p>
+         <br>
+         </div>
+    <div>
+       <img src="imagenes/Tungurahua.jpg" width="60%"> </div>
+    </div>
+    </div>
+</div>
+<div data-role="footer" align="center" data-theme="a">
+   <div>
+      <h4>Aplicación 3</h4>
+      <img src="imagenes/persona_rosa.png" width="46" height="46">
+   </div>
+   <div>
+     <h4>Brenda Rios Corona</h4>
+   </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"data-back-btn-theme="a">
+    <h1>Actividad volcánica</h1>
+    </div>
+   <div data-role="content" align="center">
+    <div>
+    <h2> Alerta experto de la UNAM por aumento de actividad del 'Popo' </h2>
+
+ <p>El volcán Popocatépetl registra un aumento de su actividad y posiblemente desde 2013 no se veía una explosión como la reciente, señaló el jefe del Departamento de Vulcanología del Instituto de Geofísica, Hugo Delgado Granados.</p>
+
+ <p>El especialista de la Universidad Nacional Autónoma de México (UNAM) dijo que la exhalación registrada forma parte de una erupción que es continua desde diciembre de 1994, "lo que sucede es que en ocasiones disminuye la actividad eruptiva y en otras se incrementa, como está ocurriendo”.</p>
+
+<p>Recordó que 2001 hubo una explosión más impresionante, con flujos piroclásticos y señaló que pareciera que también hay una relación estacional, aunque no tiene que ver la actividad eruptiva con el estado del tiempo, “hay partes que de alguna forma sí son controladas por el clima”.
+
+A reserva de analizar la información con mayor detalle, al parecer lo que ocurrió en las últimas semanas es un ascenso de una porción de magma, cuya magnitud se desconoce, subrayó el experto.
+
+Es lo que se puede concluir, comentó, al observar señales como el incremento de la cantidad de gases y su fuerte variabilidad, que va en aumento y de pronto disminuye drásticamente.
+
+Por último, recordó que el volcán es vigilado por personal del Centro Nacional de Prevención de Desastres (Cenapred), que tiene una comunicación muy eficiente con el Sistema Nacional de Protección Civil, por lo que la población debe seguir las indicaciones que éste emita. </p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','imagenes/actividad1.jpg',1)"><img src="imagenes/actividad2.jpg" width="650" height="380" id="Image15"></a>
+
+<h2> Dato de último momento </h2> 
+ <p>Detéctan 20 exhalaciones del volcán Popocatepetl.</p>
+ <p> En las últimas ocho horas el volcán Popocatépetl registró 20 exhalaciones, mayoritariamente de baja intensidad, acompañadas por la emisión continua de vapor de agua y gas, informó el Cenapred.
+ </p> 
+<img src="imagenes/monitoreo.jpg" width="20%" height="20%">
+    </div>
+   </div>
+ <div data-role="footer" data-theme="a">
+     <h4>Brenda Rios Corona</h4>
+   </div>
+  </div>
+ </div>                                  
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"data-back-btn-theme="a">
+    <h1>Monitoreo del Volcán</h1>
+    </div>
+   <div data-role="content" align="center">
+    <div>
+    <h2> CIELO CON NUBOSIDAD EN LOS ALREDEDORES DEL VOLCÁN POPOCATEPETL, CUALQUIER EMISION DE
+CENIZA SERÁ CON DIRECCION ESTE RECURVANDO AL SURESTE DE LA REPUBLICA MEXICANA. </h2> 
+    <p>En la imagen de la cámara de la estación Altzomoni (Img.1) se observa
+nubosidad que permite ver parcialmente la zona del volcán.
+CENAPRED informa que en las últimas 24 horas, por medio de los
+registros sísmicos del sistema de monitoreo del volcán Popocatépetl, se
+han identificado 105 exhalaciones de baja intensidad y dos explosiones,
+una el día de ayer a las 11:19 h y la segunda hoy a las 07:26 h. Se tuvo
+visibilidad parcial y se observó que los vientos dispersaron las emisiones
+de manera preferencial al noreste. </p>
+<img src="imagenes/monitoreo2.jpg" width="20%" height="20%">
+
+
+<p><a href="http://www.cenapred.unam.mx/es/" title="CENAPRED" target="_blank">Da clic para más detalles..</a></p>
+<p>Atmósfera inestable: LI -0.90 PW: 14.40 mm</p>
+<p> En 5000 m: Viento del oeste de 47 km/h</p>
+<p> Entre 5000 y 7000m: Viento del oeste de 66 km/h </p>
+<p> Por arriba de 7000 m: Viento del oeste de 66 km/h </p>
+
+<h2> PRONÓSTICO DE TRAYECTORIA DE CENIZAS PARA LAS PRÓXIMAS 24 HRS. </h2>
+
+<p>El pronóstico de trayectorias del modelo Hysplit de la NOAA, inicializado con el modelo GFS, indica un desplazamiento hacia el este recurvando al
+sureste de la República Mexicana. Iniciando por el oeste, centro y este del estado de Puebla y centro y sur del estado de Veracruz, para las primeras
+12 horas de pronóstico, posteriormente para las últimas 12 horas continuarán las trayectorias en el centro y sur del estado de Veracruz; oeste del
+estado de Tabasco y noroeste, centro y sureste del estado de Chiapas. Estas trayectorias marcarían la dirección principal de emisiones de la pluma
+de gas, vapor de agua y/o cenizas volcánicas, procedentes del Volcán Popocatépetl.</p>
+    </div>
+   </div>
+ <div data-role="footer" data-theme="a">
+     <h4>Brenda Rios Corona</h4>
+   </div>
+  </div>
+ </div>  
+ 
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"data-back-btn-theme="a">
+    <h1>Medidas de Precaución en caso de ..</h1>
+    </div>
+    <div data-role="content" align="center">
+    
+   <div data-role="content" align="center">
+    <div>
+
+<img src="imagenes/antes.png" width="78%" height="74%">
+<img src="imagenes/duranteydespues.png" width="87%" height="95%">
+
+<img src="imagenes/caidadeceniza.png" width="80%" height="80%">
+
+   
+    </div>
+   </div>
+ <div data-role="footer" data-theme="a">
+     <h4>Brenda Rios Corona</h4>
+   </div>
+  </div>
+ </div>           
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"data-back-btn-theme="a">
+    <h1>Que estados afectaría </h1>
+    </div>
+   <div data-role="content" align="center">
+    <div>
+    <h2> ¿Que ocacionaría una erupción? </h2> 
+    <p> Una erupción de baja a mediana intensidad sería suficiente para crear un desastre en el entorno de la región del Popocatépetl: la vegetación sería de las primeras afectadas, la fauna alterada provocaría un desequilibrio ecológico, la agricultura se vería seriamente dañada y las cosechas se perderían de inmediato; hay que tomar en cuenta que muchas familias dependen de la agricultura que se desarrolla en el entorno del volcán. Los centros de actividades recreativas que tienen aguas medicinales, principalmente en el estado de Morelos, se afectarían por la contaminación de sustancias químicas derivadas de la actividad volcánica. La población tendría la necesidad de migrar a las grandes ciudades, con todo lo que ello implica.
+Por otro lado, se tendría que dar albergue a los damnificados; el problema sería cómo, cuándo y en qué tiempo. Asimismo, las pérdidas materiales y el costo económico serían invaluables.
+Como es frecuente en México cuando ocurre un desastre, los grupos políticos oportunistas harían acto de presencia. El problema podría convertirse en un pretexto político, tal y como ocurre actualmente en Chiapas.</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','imagenes/erupcion2.jpg',1)"><img src="imagenes/erupcion1.jpg" width="650" height="364" id="Image14"></a>
+  <h2> Lugares que afectaría </h2>
+<p> El espacio territorial que se ha analizado en el estudio es de aproximadamente 15,708 km² y abarca el Distrito Federal, Tlaxcala, Morelos y parcialmente los estados de Hidalgo, México y Puebla.
+
+Un caso particular de afectación se presentaría para la Ciudad de México, debido a que las cantidades de ceniza provenientes del Popocatépetl se añadirían a sus condiciones de alta contaminación (se han detectado cuando menos 100 contaminantes en su aire), y por consiguiente habría mayores riesgos para la salud de sus habitantes. </p>
+
+<h2> Delegaciones del D.F. que se verían afectadas </h2>
+<p>En caso de erupción, los materiales que llegarían a la Ciudad de México serían prácticamente piroclsticos, es decir, aéreos, como gases y ceniza volcánica de grano fino, que pueden llegar a más de 50 km del origen del volcán.</p>
+<p>  Las delegaciones tentativamente afectadas serían; </p>
+<p>  Milpa Alta </p>
+<p>  Tláhuac</p> 
+<p> Xochimilco </p>  
+<p> Iztapalapa</p>
+<p> Tlalpan </p>
+<p> Coyoacán </p>
+<P>  en menor proporción estarían; </p> 
+<p> Magdalena Contreras</p> 
+<p> Cuajimalpa</p>
+<p> Álvaro Obregón</p>
+<p> Miguel Hidalgo</p>
+<p> Cuauhtémoc</p>
+<p> Venustiano Carranza</p>
+<p> Gustavo A. Madero </p> 
+<p> Azcapotzalco </p>
+
+    </div>
+   </div>
+ <div data-role="footer" data-theme="a">
+     <h4>Brenda Rios Corona</h4>
+   </div>
+  </div>
+ </div>                                  
+
+</body>
+</html>
